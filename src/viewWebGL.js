@@ -1,6 +1,6 @@
 import * as Matrix from './gl-matrix.js';
 import MouseController from './MouseController.js';
-//import { mat4 } from './gl-matrix.js';
+
 export default class View {
     static color = {
         '1': 'cyan',
