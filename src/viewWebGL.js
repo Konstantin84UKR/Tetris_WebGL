@@ -138,9 +138,9 @@ export default class View {
         let info = document.querySelector('#info1');
         info.innerHTML = 'GAME OVER';
         let info2 = document.querySelector('#info2');
-        info2.innerHTML = '-----------------------------';
+        info2.innerHTML = 'Press ENTER to Resume';
         let info3 = document.querySelector('#info3');
-        info3.innerHTML = 'Press ENTER to Resume';
+        info3.innerHTML = 'https://github.com/Konstantin84UKR/Tetris_WebGL';
     }
 
 
