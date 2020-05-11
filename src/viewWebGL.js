@@ -79,11 +79,11 @@ export default class View {
     clearScreen() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         let info = document.querySelector('#info1');
-        info.innerHTML = '';
+        info.innerHTML = 'Created by Konstantin Bondarenko';
         let info2 = document.querySelector('#info2');
-        info2.innerHTML = '';
+        info2.innerHTML = '-----------------------------';
         let info3 = document.querySelector('#info3');
-        info3.innerHTML = '';
+        info3.innerHTML = 'https://github.com/Konstantin84UKR/Tetris_WebGL';
     }
 
 
@@ -97,9 +97,9 @@ export default class View {
         let info = document.querySelector('#info1');
         info.innerHTML = 'Press ENTER to Start';
         let info2 = document.querySelector('#info2');
-        info2.innerHTML = '';
+        info2.innerHTML = '-----------------------------';
         let info3 = document.querySelector('#info3');
-        info3.innerHTML = '';
+        info3.innerHTML = 'https://github.com/Konstantin84UKR/Tetris_WebGL';
     }
 
     renderPauseScreen() {
@@ -116,9 +116,9 @@ export default class View {
         let info = document.querySelector('#info1');
         info.innerHTML = 'Press ENTER to Resume';
         let info2 = document.querySelector('#info2');
-        info2.innerHTML = '';
+        info2.innerHTML = '-----------------------------';
         let info3 = document.querySelector('#info3');
-        info3.innerHTML = '';
+        info3.innerHTML = 'https://github.com/Konstantin84UKR/Tetris_WebGL';
     }
 
 
@@ -138,7 +138,7 @@ export default class View {
         let info = document.querySelector('#info1');
         info.innerHTML = 'GAME OVER';
         let info2 = document.querySelector('#info2');
-        info2.innerHTML = '';
+        info2.innerHTML = '-----------------------------';
         let info3 = document.querySelector('#info3');
         info3.innerHTML = 'Press ENTER to Resume';
     }
