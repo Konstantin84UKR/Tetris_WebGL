@@ -70,16 +70,16 @@ export default class View {
     }
 
     renderMainScreen(state) {
-        this.clearScreen();
+        this.clearScreen(state);
         this.renderPlayfild(state);
         // this.renderPlayfild_WebGl(state);
         this.renderPanel(state);
     }
 
-    clearScreen() {
+    clearScreen({ lines, score }) {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         let info = document.querySelector('#info1');
-        info.innerHTML = 'Created by Konstantin84UKR ';
+        info.innerHTML = 'Line :' + lines + " Score :" + score;
         let info2 = document.querySelector('#info2');
         info2.innerHTML = '-----------------------------';
         let info3 = document.querySelector('#info3');
@@ -136,7 +136,7 @@ export default class View {
         this.context.fillText('Press ENTER to Resume', this.width / 2, this.heigh / 2 + 24);
 
         let info = document.querySelector('#info1');
-        info.innerHTML = 'GAME OVER';
+        info.innerHTML = 'GAME OVER Line :' + state.lines + " Score :" + state.score;
         let info2 = document.querySelector('#info2');
         info2.innerHTML = 'Press ENTER to Resume';
         let info3 = document.querySelector('#info3');
