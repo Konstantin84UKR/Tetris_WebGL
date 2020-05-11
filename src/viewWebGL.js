@@ -79,7 +79,7 @@ export default class View {
     clearScreen() {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         let info = document.querySelector('#info1');
-        info.innerHTML = 'Created by Konstantin Bondarenko';
+        info.innerHTML = 'Created by Konstantin84UKR ';
         let info2 = document.querySelector('#info2');
         info2.innerHTML = '-----------------------------';
         let info3 = document.querySelector('#info3');
