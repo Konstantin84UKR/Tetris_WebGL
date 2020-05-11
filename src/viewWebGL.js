@@ -89,7 +89,7 @@ export default class View {
 
     renderStartScreen() {
         this.context.fillStyle = 'white';
-        this.context.font = '18px "Press Start 2P"';
+        this.context.font = '10px "Press Start 2P"';
         this.context.textAlign = 'center';
         this.context.textBaseline = 'middle';
         this.context.fillText('Press ENTER to Start', this.width / 2, this.heigh / 2);
@@ -108,7 +108,7 @@ export default class View {
         this.context.fillRect(0, 0, this.width, this.heigh);
 
         this.context.fillStyle = 'white';
-        this.context.font = '18px "Press Start 2P"';
+        this.context.font = '10px "Press Start 2P"';
         this.context.textAlign = 'center';
         this.context.textBaseline = 'middle';
         this.context.fillText('Press ENTER to Resume', this.width / 2, this.heigh / 2);
@@ -126,11 +126,11 @@ export default class View {
 
         this.clearScreen();
         this.context.fillStyle = 'white';
-        this.context.font = '22px "Press Start 2P"';
+        this.context.font = '10px "Press Start 2P"';
         this.context.textAlign = 'center';
         this.context.textBaseline = 'middle';
         this.context.fillText('GAME OVER', this.width / 2, this.heigh / 2 - 96);
-        this.context.font = '14px "Press Start 2P"';
+        this.context.font = '10px "Press Start 2P"';
         //this.context.fillText('Press ENTER to Resume', this.width / 2, this.heigh / 2 - 48);
         this.context.fillText(`Score: ${score} `, this.width / 2, this.heigh / 2 - 48);
         this.context.fillText('Press ENTER to Resume', this.width / 2, this.heigh / 2 + 24);
@@ -168,7 +168,7 @@ export default class View {
         this.context.textAlign = 'start';
         this.context.textBaseline = 'top';
         this.context.fillStyle = 'white';
-        this.context.font = '14px "Press Start 2P"';
+        this.context.font = '10px "Press Start 2P"';
 
         this.context.fillText(`Score: ${score}`, this.panelX, this.panelY + 0);
         this.context.fillText(`Lines: ${lines}`, this.panelX, this.panelY + 24);

@@ -11,6 +11,7 @@ div#root {
   body {
     background: black; /* Цвет фона */
     color: #fc0; /* Цвет текста */
+    font-size: 10px; /* размер текста */
    }
 
    /* canvas {
