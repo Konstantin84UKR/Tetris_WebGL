@@ -7,7 +7,6 @@ const root = document.querySelector('#root');
 //const info = document.querySelector('#info');
 
 const game = new Game();
-//const view = new View(root, 480, 640, 20, 10);
 const view = new View(root, 480, 520, 20, 10);
 const controller = new Controller(game, view, view);
 
