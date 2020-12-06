@@ -15,6 +15,7 @@ export default class Controller {
 
         document.addEventListener('keydown', this.handleKeyDown.bind(this));
         this.view.renderStartScreen();
+        this.play();
     }
 
     update() {
